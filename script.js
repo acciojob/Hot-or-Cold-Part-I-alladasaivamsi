@@ -16,7 +16,7 @@ function guessName()
 
 function print()
 {
-    if(Math.abs(randomNum - input) >= 5)
+    if(Math.abs(randomNum - input) <= 5)
     {
         document.getElementById("respond").innerHTML = "Hot";
     }
